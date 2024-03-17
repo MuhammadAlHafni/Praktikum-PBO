@@ -89,8 +89,7 @@ public class Main {
             System.out.println("gada ada tas yang terdaftar.");
         } else {
             for (Tas tas : daftarTas) {
-                tas.printDetails(); // Menggunakan metode printDetails yang memiliki access modifier default
-            }
+                tas.printDetails();
         }
     }
 
